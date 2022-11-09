@@ -1,46 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Audio player HTML5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <title>music player</title>
-  <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+    <style>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <div id="container">
-    <audio id="audio">
-      <source id="sourceMP3" src="" type="audio/ogg">
-    </audio>
+    #player{
+        position: relative;
+        max-width: 700px;
+        height: 500px;
+        border: solid 1px gray;
+    }
+    </style>
+  </head>
 
-    <div id="wrapper">
-      <!-- Track information-->
-      <div id="trackInfo">
-        <div id="titleText">.</div>
-      </div>
+  <body>
+      <!-- Audio player container-->
+     <div id='player'></div>
 
-      <div id="timeInfo">
-        <div><div id="timeBar"><div class="filler"></div></div></div>
-        <div id="timeText"></div>
-      </div>
+    <!-- Audio player js begin-->
+    <script src="js/AudioPlayer.js"></script>
+    <script src="js/playlist.js"></script>
+    <script>
+        // test image for web notifications
+        var iconImage = null;
 
-      <!-- Controls -->
-      <div id="controls">
-        <div class="button" id="playBtn"><img src="icons/32/play-32.png"></div>
-        <div class="button" id="randomBtn"><img src="icons/32/random-32.png"></div>
-        <div class="button" id="previousBtn"><img src="icons/32/rewind-32.png"></div>
-        <div class="button" id="nextBtn"><img src="icons/32/forward-32.png"></div>
-        <div id="volumeIcon"><img src="icons/32/volume-32.png"></div>
-        <div><div id="volumeSlider"><div class="filler"></div></div></div>
-      </div>
-  </div>
-</div>
-  <div id = "slideContainer"></br></div>
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : true,
+            notification: false,
+            playList : trackList
+            
+        });
+    </script>
+    <!-- Audio player js end-->
 
-  <script src="scripts/sliderfy.js"></script>
-  <script src="scripts/playlist.js"></script>
-  <script src="scripts/controls.js"></script>
-
-</body>
-
+  </body>
 </html>
