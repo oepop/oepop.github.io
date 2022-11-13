@@ -1,5 +1,6 @@
 trackList = 
 [ 
+{"icon":"cover/【yama】色彩.png", "title":"【yama】色彩.mp3", "file":"music/【yama】色彩.mp3"},
 {"icon":"cover/【Ado】逆光.png", "title":"【Ado】逆光.mp3", "file":"music/【Ado】逆光.mp3"},
 {"icon":"cover/【Creepy Nuts】 堕天.png", "title":"【Creepy Nuts】 堕天.mp3", "file":"music/【Creepy Nuts】 堕天.mp3"},
 {"icon":"cover/【ALI】LOST IN PARADISE.png", "title":"【ALI】LOST IN PARADISE.mp3", "file":"music/【ALI】LOST IN PARADISE.mp3"},
@@ -11,9 +12,9 @@ trackList =
 {"icon":"cover/【Aimer】残響散歌.png", "title":"【Aimer】残響散歌.mp3", "file":"music/【Aimer】残響散歌.mp3"},
 {"icon":"cover/【Creepy Nuts  】のびしろ.png", "title":"【Creepy Nuts  】のびしろ.mp3", "file":"music/【Creepy Nuts  】のびしろ.mp3"},
 {"icon":"cover/【キタニタツヤ】 Rapport.png", "title":"【キタニタツヤ】 Rapport.mp3", "file":"music/【キタニタツヤ】 Rapport.mp3"},
+{"icon":"cover/【北村匠海】貓.png", "title":"【北村匠海】貓.mp3", "file":"music/【北村匠海】貓.mp3"},
 {"icon":"cover/【YOASOBI】怪物.png", "title":"【YOASOBI】怪物.mp3", "file":"music/【YOASOBI】怪物.mp3"},
 {"icon":"cover/【King Gnu】 一途.png", "title":"【King Gnu】 一途.mp3", "file":"music/【King Gnu】 一途.mp3"},
-{"icon":"cover/【神山羊】色香水.png:Zone.Identifier", "title":"【神山羊】色香水.mp3:Zone.Identifier", "file":"music/【神山羊】色香水.mp3:Zone.Identifier"},
 {"icon":"cover/【SEKAI NO OWARI】Habit.png", "title":"【SEKAI NO OWARI】Habit.mp3", "file":"music/【SEKAI NO OWARI】Habit.mp3"},
 {"icon":"cover/【ROSA WALTON & HALLIE COGGINS】 I REALLY WANT TO STAY AT YOUR HOUSE.png", "title":"【ROSA WALTON & HALLIE COGGINS】 I REALLY WANT TO STAY AT YOUR HOUSE.mp3", "file":"music/【ROSA WALTON & HALLIE COGGINS】 I REALLY WANT TO STAY AT YOUR HOUSE.mp3"},
 {"icon":"cover/【sayuri】Tower of Flower.png", "title":"【sayuri】Tower of Flower.mp3", "file":"music/【sayuri】Tower of Flower.mp3"},
