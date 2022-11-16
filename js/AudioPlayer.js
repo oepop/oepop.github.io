@@ -53,6 +53,9 @@ var AudioPlayer = (function() {
     '        <button class="ap-controls ap-shuffle-btn">'+
     '          <i class="material-icons md-dark">shuffle</i>'+
     '        </button>'+
+    // '        <button class="ap-controls ap-repeat_one-btn">'+
+    // '          <i class="material-icons md-dark">repeat_one</i>'+
+    // '        </button>'+
     '        <button class="ap-controls ap-playlist-btn">'+
     '          <i class="material-icons md-dark">queue_music</i>'+
     '        </button>'+
